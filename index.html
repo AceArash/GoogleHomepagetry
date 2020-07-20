@@ -3,42 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Google Homepage</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://freeiconshop.com/wp-content/uploads/edd/google-flat.png" type="image/x-icon">
+    <title>Google Homepage The Odin Project </title>
 </head>
-
-<body>
+<header>
     <nav>
-        <ul class="top-nav">
-            <li><a href="#">+Arash</a></li>
-            <li><a href="#">Gmail</a></li>
-            <li><a href=#>Images</a></li>
+        <ul>
+            <li>
+                <a href="#">Gmail</a>
+            </li>
+            <li>
+                <a href="#">Images</a>
+            </li>
+            <li>
+                <a href="#" class="menu"><i class="fas fa-th"></i></a>
+            </li>
+            <li class="sign--in">
+                <a href="#">Sign in</a>
+            </li>
         </ul>
     </nav>
-
-    <img src="google-logo.jpg" alt="Google's logo">
-
-    <div class="search-form">
-        <form>
-            <input type="search" placeholder="search for..">
-            <input type="submit" placeholder="Google Search">
-            <input type="submit" placeholder="I'm feeling lucky">
+</header>
+<main>
+    <div class="container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        <form action="" class="search">
+            <div class="serch--box">
+                <input type="text">
+                <span><i class="fas fa-microphone"></i></span>
+            </div>
+            <a href="#">Google Search</a>
+            <a href="#">I'm Feeling Lucky</a>
         </form>
     </div>
-
-    <footer>
-        <ul class="footer-nav-left">
+</main>
+<footer>
+    <section class="language">
+        <p>India</p>
+    </section>
+    <section class="footer--menu">
+        <ul>
             <li><a href="#">Advertising</a></li>
             <li><a href="#">Business</a></li>
             <li><a href="#">About</a></li>
         </ul>
-
-        <ul class="footer-nav-right">
-            <li><a href="#">Privacy</a></li>
+        <ul>
+            <li><a href="#">Privecy</a></li>
             <li><a href="#">Terms</a></li>
             <li><a href="#">Settings</a></li>
         </ul>
-    </footer>
+    </section>
+</footer>
+
+<body>
 
 </body>
 
