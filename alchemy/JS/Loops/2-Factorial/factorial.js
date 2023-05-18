@@ -10,8 +10,3 @@ function factorial(n){
 module.exports = factorial;
 
 
-/*
-for ([initialization]; [condition]; [update]) {
-   statement
-}
-*/
