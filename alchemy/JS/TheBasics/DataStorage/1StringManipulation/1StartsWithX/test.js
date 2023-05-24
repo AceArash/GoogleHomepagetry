@@ -1,4 +1,4 @@
-const startsWithX = require('../startsWithX');
+const startsWithX = require('./startsWithX');
 const { assert } = require('chai');
 
 describe('startsWithX', () => {
