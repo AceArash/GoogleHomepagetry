@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const ORDER_TYPES = require('../orderTypes');
+const ORDER_TYPES = require('../5addByType/orderTypes');
 
 describe('ORDER_TYPES', () => {
     it('should have at least three keys', () => {

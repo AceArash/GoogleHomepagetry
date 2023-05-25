@@ -1,4 +1,4 @@
-const numberOfPizzas = require('../numberOfPizzas');
+const numberOfPizzas = require('../5addByType/numberOfPizzas');
 const { assert } = require('chai');
 
 describe('numberOfPizzas', () => {
